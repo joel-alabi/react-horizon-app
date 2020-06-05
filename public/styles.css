@@ -1,0 +1,174 @@
+.navbar-home {
+    border: none;
+    background-color: #fff;
+    border-radius: none;
+    margin-bottom: 0; 
+}
+
+.site-logo {
+    height: 100px;
+    width: auto;
+}
+
+.site-logo img {
+    height: 100%;
+    
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+    margin-left: 40vw;
+
+}
+
+.flags img {
+    margin: 1vw;
+    width: 40px;
+    height: auto;
+}
+
+.Plans{
+    margin-top: 50px;
+    
+}
+.a{
+    border: 1rem solid cyan; 
+}
+
+.down{
+    background-color: blue;
+}
+
+.H{
+    color: darkgoldenrod;
+}
+
+.p1{
+    color: chartreuse;
+}
+
+.p2{
+    color: floralwhite;
+}
+
+ .carousel {
+    max-height: 85vh;
+    min-height: 30vh;
+    position: relative;
+    overflow-y: hidden;
+  }
+  
+  .carousel #left-arrow, .carousel #right-arrow {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 8vw;
+    background-color: #00000003;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+  }
+  
+   .carousel #left-arrow svg, .carousel #right-arrow svg {
+    max-height: 50px;
+    -webkit-transform: scale(0.7, 0.7);
+            transform: scale(0.7, 0.7);
+  }
+  
+   .carousel #left-arrow svg .cls-1,  .carousel #right-arrow svg .cls-1 {
+    fill: none;
+    stroke: #b1b1b1;
+    stroke-width: 6px;
+  }
+  
+  .carousel #left-arrow:hover, .carousel #right-arrow:hover {
+    background-color: #2222220c;
+  }
+  
+   .carousel #left-arrow:hover svg .cls-1, .carousel #right-arrow:hover svg .cls-1 {
+    stroke: #fff;
+  }
+  
+  .carousel #left-arrow {
+    left: 0;
+  }
+  
+   .carousel #left-arrow:hover {
+    -webkit-box-shadow: 0px 0px 6px #00000015;
+            box-shadow: 0px 0px 6px #00000015;
+  }
+  
+  .carousel #right-arrow {
+    right: 0;
+  }
+  
+  .carousel #right-arrow:hover {
+    -webkit-box-shadow: -1px 0px 6px #00000015;
+            box-shadow: -1px 0px 6px #00000015;
+  }
+  
+  .carousel .indicators {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    bottom: 35px;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+ .carousel .indicators button {
+    min-width: 9px;
+    min-height: 9px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+  }
+  
+  .carousel .indicators .active {
+    background-color: #fff;
+  }
+  
+ .carousel .images {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  
+   .carousel .images img {
+    width: 100%;
+  }
+  
+  .carousel .images :not(.active) {
+    -webkit-animation: fadeOut .3s ease-out forwards;
+            animation: fadeOut .3s ease-out forwards;
+    display: none;
+  }
+  
+  .carousel .images .active {
+    display: unset;
+    -webkit-animation: fadeIn .5s ease-in forwards;
+            animation: fadeIn .5s ease-in forwards;
+  }
+  
